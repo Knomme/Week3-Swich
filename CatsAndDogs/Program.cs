@@ -6,6 +6,7 @@ namespace CatsAndDogs
 	{
 		static void Main(string[] args)
 		{
+
             Console.WriteLine("Are you more like a cat or a dog?");
             string userChoice = Convert.ToString(Console.ReadLine().ToLower());
 
@@ -13,11 +14,11 @@ namespace CatsAndDogs
             {
                 Console.WriteLine("You are a home-lover.");
             }
-            else if (userChoice == "dog")
+            else if (userChoice == "DOG")
             {
                 Console.WriteLine("You are a partygoer.");
             }
-             else
+            else
             {
                 Console.WriteLine($"You are a {userChoice} friend.");
             }
