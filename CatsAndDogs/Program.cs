@@ -6,6 +6,9 @@ namespace CatsAndDogs
 	{
 		static void Main(string[] args)
 		{
+            
+            //a
+            
             Console.WriteLine("Are you more like a cat or a dog?");
             string userChoice = Convert.ToString(Console.ReadLine().ToLower());
 
