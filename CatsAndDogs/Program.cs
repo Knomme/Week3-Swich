@@ -13,7 +13,7 @@ namespace CatsAndDogs
             {
                 Console.WriteLine("You are a home-lover.");
             }
-            else if (userChoice == "DOG")
+            else if (userChoice == "dog")
             {
                 Console.WriteLine("You are a partygoer.");
             }
